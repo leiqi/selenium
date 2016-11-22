@@ -17,8 +17,8 @@ from os import path
 def get_douban_comments(url):
     comments_list = [] # 评论列表
     login_url = 'https://accounts.douban.com/login?source=movie'
-    user_name = '15527594439'
-    password = 'hcc199521'
+    user_name = '××××××××××××'
+    password = '××××××××××××'
     driver = webdriver.Firefox()
     driver.get(login_url)
     driver.find_element_by_id('email').clear()
