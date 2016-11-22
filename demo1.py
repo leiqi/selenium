@@ -11,9 +11,9 @@ import os,time
 # driver.get(url)
 # driver.maximize_window() # 浏览器全屏
 # driver.find_element_by_id('email').clear() # 找到输入用户名框，并清除默认信息
-# driver.find_element_by_id('email').send_keys('15527594439') # 输入用户名
+# driver.find_element_by_id('email').send_keys('××××××××××××') # 输入用户名
 # driver.find_element_by_id('password').send_keys(Keys.TAB) # 等同于clear方法，TAB清除密码框的默认信息
-# driver.find_element_by_id('password').send_keys('hcc199521') # 输入密码
+# driver.find_element_by_id('password').send_keys('××××××××××××') # 输入密码
 # driver.find_element_by_id('password').send_keys(Keys.ENTER) # 定位密码框，输入回车键
 # title = driver.find_element_by_class_name('nav-user-account').text # 获取登陆成功后的验证信息，验证是否登陆成功
 # print title
