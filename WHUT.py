@@ -12,9 +12,9 @@ driver.get(url)
 driver.maximize_window() # 浏览器全屏
 
 driver.find_element_by_xpath('//*[@id="textfield"]').clear()
-driver.find_element_by_xpath('//*[@id="textfield"]').send_keys('0121314670302') # 学号
+driver.find_element_by_xpath('//*[@id="textfield"]').send_keys('××××××××××××') # 学号
 driver.find_element_by_xpath('//*[@id="textfield2"]').clear()
-driver.find_element_by_xpath('//*[@id="textfield2"]').send_keys('12345abcde') # 密码
+driver.find_element_by_xpath('//*[@id="textfield2"]').send_keys('××××××××××××') # 密码
 driver.find_element_by_xpath('//*[@id="imageField"]').click() # 点击登陆按钮
 driver.find_element_by_xpath('/html/body/div[3]/div[2]/div[1]/ul/li[7]/a').click() # 学生成绩管理
 
