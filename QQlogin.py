@@ -175,10 +175,10 @@ class QQ_zone(object):
         driver.find_element_by_id('switcher_plogin').click()
         u1 = driver.find_element_by_class_name('uinArea')
         u1.find_element_by_id('u').clear()
-        u1.find_element_by_id('u').send_keys('919987476') # 输入用户名
+        u1.find_element_by_id('u').send_keys('××××××××××××') # 输入用户名
         u2 = driver.find_element_by_class_name('pwdArea')
         u2.find_element_by_id('p').clear()
-        u2.find_element_by_id('p').send_keys('hcc19952100..00')# 输入密码
+        u2.find_element_by_id('p').send_keys('××××××××××××')# 输入密码
         driver.find_element_by_id('login_button').click() # 点击登陆按钮
         return driver
 
