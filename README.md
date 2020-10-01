@@ -1,2 +1,2 @@
 # selenium
-My python scripts using selenium
+This is my python scripts using selenium project.
